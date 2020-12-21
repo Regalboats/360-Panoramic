@@ -34,6 +34,18 @@ var APP_DATA = {
           "pitch": 0.3815196358161721,
           "rotation": 0,
           "target": "1-head"
+        },
+        {
+          "yaw": -1.0783082515880693,
+          "pitch": 1.0040342239377615,
+          "rotation": 7.0685834705770345,
+          "target": "2-refreshment"
+        },
+        {
+          "yaw": -1.2481537405516416,
+          "pitch": 0.5608758833311267,
+          "rotation": 0,
+          "target": "3-aft-berth"
         }
       ],
       "infoHotspots": []
