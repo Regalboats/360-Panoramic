@@ -24,26 +24,26 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.652220307485985,
-        "pitch": 0.30084090268936237,
+        "yaw": 1.6870827609810286,
+        "pitch": 0.6864343066496481,
         "fov": 1.3715802068843215
       },
       "linkHotspots": [
         {
-          "yaw": -2.9845218258285158,
-          "pitch": 0.3815196358161721,
+          "yaw": -2.973604934658308,
+          "pitch": 0.9781479920228477,
+          "rotation": 0.7853981633974483,
+          "target": "2-head-a"
+        },
+        {
+          "yaw": -0.8252483969167841,
+          "pitch": 0.9541317564806242,
           "rotation": 0,
-          "target": "1-head"
+          "target": "1-refreshment"
         },
         {
-          "yaw": -1.0783082515880693,
-          "pitch": 1.0040342239377615,
-          "rotation": 7.0685834705770345,
-          "target": "2-refreshment"
-        },
-        {
-          "yaw": -1.2481537405516416,
-          "pitch": 0.5608758833311267,
+          "yaw": -1.2171381868527185,
+          "pitch": 0.7028252248696454,
           "rotation": 0,
           "target": "3-aft-berth"
         }
@@ -51,57 +51,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-head",
-      "name": "Head",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.0315744980374113,
-        "pitch": 0.6273990697249854,
-        "fov": 1.3715802068843215
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.9269260058691504,
-          "pitch": 0.4034639576904482,
-          "rotation": 1.5707963267948966,
-          "target": "0-master-berth"
-        },
-        {
-          "yaw": -1.5713330863471224,
-          "pitch": 0.7716329522472343,
-          "rotation": 0,
-          "target": "2-refreshment"
-        },
-        {
-          "yaw": -2.0679785328505584,
-          "pitch": 0.3693288725545365,
-          "rotation": 4.71238898038469,
-          "target": "3-aft-berth"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-refreshment",
+      "id": "1-refreshment",
       "name": "Refreshment",
       "levels": [
         {
@@ -124,28 +74,72 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.5600902797703675,
-        "pitch": 0.36212610795645617,
+        "yaw": -2.8301712324353225,
+        "pitch": 0.4439326898497562,
         "fov": 1.3715802068843215
       },
       "linkHotspots": [
         {
-          "yaw": 0.20589289115237008,
-          "pitch": 0.7023379921401514,
-          "rotation": 0,
+          "yaw": 2.1690498626258865,
+          "pitch": 0.7919594749754815,
+          "rotation": 5.497787143782138,
           "target": "3-aft-berth"
         },
         {
-          "yaw": -3.045509215500097,
-          "pitch": 0.8874411140338445,
+          "yaw": -1.0077961729381961,
+          "pitch": 1.0144811322266225,
           "rotation": 0,
           "target": "0-master-berth"
         },
         {
-          "yaw": -1.902418227712122,
-          "pitch": 0.8069793428822614,
+          "yaw": 0.1154389655791821,
+          "pitch": 0.9417296098735637,
           "rotation": 0,
-          "target": "1-head"
+          "target": "2-head-a"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-head-a",
+      "name": "Head A",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.089660708591124,
+        "pitch": 0.6761490049487726,
+        "fov": 1.3715802068843215
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6615965326818305,
+          "pitch": 0.9653710511463576,
+          "rotation": 0,
+          "target": "1-refreshment"
+        },
+        {
+          "yaw": -0.19488962472347637,
+          "pitch": 0.8551007510926496,
+          "rotation": 0,
+          "target": "0-master-berth"
         }
       ],
       "infoHotspots": []
@@ -174,22 +168,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.6443534990495223,
-        "pitch": 0.43332374884490577,
+        "yaw": 2.0413806719698115,
+        "pitch": 0.33166457904340163,
         "fov": 1.3715802068843215
       },
       "linkHotspots": [
         {
-          "yaw": -0.09887393196937921,
-          "pitch": 0.13399296882307965,
+          "yaw": -0.12640139130213868,
+          "pitch": 0.37172144924649153,
           "rotation": 0,
-          "target": "2-refreshment"
+          "target": "1-refreshment"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Concept - Island Time",
+  "name": "42 Interior Concept",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
