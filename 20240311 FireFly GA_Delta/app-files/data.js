@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-fhd",
-      "name": "FHD",
+      "id": "0-fhd-starboard",
+      "name": "FHD Starboard",
       "levels": [
         {
           "tileSize": 256,
@@ -24,41 +24,41 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.686753368495891,
-        "pitch": 0.17806980820598994,
+        "yaw": 1.728105752040479,
+        "pitch": 0.18686202529150364,
         "fov": 1.4319388366908425
       },
       "linkHotspots": [
         {
-          "yaw": 1.0399664048227812,
-          "pitch": 0.3682994523858021,
-          "rotation": 3.141592653589793,
-          "target": "1-wetbar"
-        },
-        {
-          "yaw": 1.669961149210959,
-          "pitch": 0.4866567594449105,
+          "yaw": 1.6741621978873376,
+          "pitch": 0.44637414742481596,
           "rotation": 3.141592653589793,
           "target": "2-cockpit"
         },
         {
-          "yaw": 2.257340066509302,
-          "pitch": 0.04290900057522151,
-          "rotation": 3.141592653589793,
-          "target": "3-helm"
+          "yaw": 0.9511410967715168,
+          "pitch": 0.32122363265454723,
+          "rotation": 9.42477796076938,
+          "target": "1-fhd-portside"
         },
         {
-          "yaw": 1.8656798531118879,
-          "pitch": 0.08100515954717125,
+          "yaw": 1.8390581195426972,
+          "pitch": 0.03679136984681719,
           "rotation": 3.141592653589793,
           "target": "4-walkthrough"
+        },
+        {
+          "yaw": 2.2667482949623725,
+          "pitch": 0.03191563166998357,
+          "rotation": 3.141592653589793,
+          "target": "3-helm"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-wetbar",
-      "name": "Wetbar",
+      "id": "1-fhd-portside",
+      "name": "FHD Portside",
       "levels": [
         {
           "tileSize": 256,
@@ -80,34 +80,34 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.8242187578132265,
-        "pitch": 0.11521687780458478,
+        "yaw": 1.77672553458354,
+        "pitch": 0.07383479139380356,
         "fov": 1.4319388366908425
       },
       "linkHotspots": [
         {
-          "yaw": 2.011789184411229,
-          "pitch": 0.6795423348801393,
+          "yaw": 2.296997168793313,
+          "pitch": 0.33534727070008863,
           "rotation": 3.141592653589793,
-          "target": "2-cockpit"
+          "target": "0-fhd-starboard"
         },
         {
-          "yaw": 2.8069731932898234,
-          "pitch": 0.40088910125991717,
-          "rotation": 9.42477796076938,
-          "target": "0-fhd"
-        },
-        {
-          "yaw": 1.6779767742838727,
-          "pitch": 0.03618379928996163,
+          "yaw": 1.414186314245173,
+          "pitch": 0.02593438249350477,
           "rotation": 3.141592653589793,
           "target": "3-helm"
         },
         {
-          "yaw": 1.0900290480028385,
-          "pitch": 0.08882757483097059,
+          "yaw": 0.9219162806066983,
+          "pitch": 0.04416701635931375,
           "rotation": 3.141592653589793,
           "target": "4-walkthrough"
+        },
+        {
+          "yaw": 1.7318703402569575,
+          "pitch": 0.4670352587175799,
+          "rotation": 3.141592653589793,
+          "target": "2-cockpit"
         }
       ],
       "infoHotspots": []
@@ -136,34 +136,34 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.6145285972566068,
-        "pitch": 0.1369144415545005,
+        "yaw": 1.5206000805391913,
+        "pitch": 0.12789934637018163,
         "fov": 1.4319388366908425
       },
       "linkHotspots": [
         {
-          "yaw": -0.7177917635759297,
-          "pitch": 0.6979395470227505,
-          "rotation": 3.141592653589793,
-          "target": "1-wetbar"
-        },
-        {
-          "yaw": 1.9836926637026968,
-          "pitch": 0.08369692974965304,
+          "yaw": 1.9897965378332305,
+          "pitch": 0.09362521681526736,
           "rotation": 3.141592653589793,
           "target": "3-helm"
         },
         {
-          "yaw": 1.1046397180710414,
-          "pitch": 0.17080410902786092,
+          "yaw": 1.1771614086013837,
+          "pitch": 0.10490280440908961,
           "rotation": 3.141592653589793,
           "target": "4-walkthrough"
         },
         {
-          "yaw": -2.4068878077378564,
-          "pitch": 0.4636173022689114,
+          "yaw": -2.478438011809166,
+          "pitch": 0.4934414897223629,
           "rotation": 3.141592653589793,
-          "target": "0-fhd"
+          "target": "0-fhd-starboard"
+        },
+        {
+          "yaw": -0.7106103349920243,
+          "pitch": 0.4100051201418484,
+          "rotation": 3.141592653589793,
+          "target": "1-fhd-portside"
         }
       ],
       "infoHotspots": []
@@ -192,28 +192,34 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.888748646843748,
-        "pitch": 0.0586227837032709,
+        "yaw": -0.8512861046008844,
+        "pitch": 0.14466447181824194,
         "fov": 1.4319388366908425
       },
       "linkHotspots": [
         {
-          "yaw": 0.19490789363388217,
-          "pitch": 0.1783695342434175,
+          "yaw": -1.807417164057357,
+          "pitch": 0.21647217471044655,
           "rotation": 3.141592653589793,
-          "target": "4-walkthrough"
+          "target": "0-fhd-starboard"
         },
         {
-          "yaw": -1.156192267434534,
-          "pitch": 0.3517798894977915,
+          "yaw": -1.0476204683246042,
+          "pitch": 0.3369891524726327,
           "rotation": 3.141592653589793,
           "target": "2-cockpit"
         },
         {
-          "yaw": -0.9807719663854844,
-          "pitch": 0.25728892940281867,
+          "yaw": 0.18685401398212065,
+          "pitch": 0.2613536679988808,
           "rotation": 3.141592653589793,
-          "target": "1-wetbar"
+          "target": "4-walkthrough"
+        },
+        {
+          "yaw": -1.1092417836999626,
+          "pitch": 0.20603822957940388,
+          "rotation": 3.141592653589793,
+          "target": "1-fhd-portside"
         }
       ],
       "infoHotspots": []
@@ -242,34 +248,34 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.4937710523680368,
-        "pitch": 0.1620529471504426,
+        "yaw": 1.3469903874797549,
+        "pitch": 0.19691317415372112,
         "fov": 1.4319388366908425
       },
       "linkHotspots": [
         {
-          "yaw": 0.6577423661271986,
-          "pitch": 0.12526485089821549,
+          "yaw": 0.6492161343324714,
+          "pitch": 0.11591585055952436,
           "rotation": 3.141592653589793,
           "target": "3-helm"
         },
         {
-          "yaw": 1.3644735144523814,
-          "pitch": 0.1977038958261339,
-          "rotation": 3.141592653589793,
-          "target": "0-fhd"
+          "yaw": 1.3992074859334114,
+          "pitch": 0.31191362754435836,
+          "rotation": 9.42477796076938,
+          "target": "2-cockpit"
         },
         {
-          "yaw": 1.4019222987283495,
-          "pitch": 0.27381673523774097,
+          "yaw": 1.320975472789243,
+          "pitch": 0.19690619014219024,
           "rotation": 3.141592653589793,
-          "target": "2-cockpit"
+          "target": "0-fhd-starboard"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "20240311 Firefly GA Charlie",
+  "name": "20240311 Firefly GA Delta",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
